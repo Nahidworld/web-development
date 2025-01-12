@@ -1,0 +1,12 @@
+html --> Hyper Text Markup Language
+//-----------text
+Strong an em is semantic tag.meanigful
+inline tag do not create new line.
+inline tag display in one line
+block type tag take full line.
+//------------List
+void tag-self closing tag
+
+
+
+

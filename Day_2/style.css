@@ -1,0 +1,28 @@
+.header{
+    text-align: center;
+    align-items: center;
+    height: 300px;
+    background-image: url('img/girl1.jpg');
+    /* background-size: cover; */
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-repeat: repeat-x;
+    color:gold;
+}
+h3{
+    font-size: 30px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blog{
+    margin: 20px;
+    border: 10px solid tomato;
+    padding: 10px;
+    /* box shadow */
+    box-shadow: 10px 10px 10px blueviolet;
+}
+.natus{
+    border:2px solid purple;
+    margin:20px;
+    display: block;
+}
