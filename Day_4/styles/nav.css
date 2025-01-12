@@ -1,8 +1,8 @@
-nav ul{
-    list-style: none;
+nav > ul{
     display: flex;
 }
 nav li{
+    list-style: none;
     margin: 2px;
     padding: 10px 20px;
     background-color: rgb(63, 196, 196);
@@ -15,4 +15,15 @@ nav li a{
 nav li:hover{
     background-color: blueviolet;
     transition: 1s;
+}
+
+/* nested nav -dropdown */
+nav li .dropdown{
+    display: none;
+    position:absolute;
+    /* padding-left: 20px; */
+    margin-right: 20px;
+}
+nav li:hover .dropdown{
+    display: block;
 }
