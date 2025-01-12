@@ -1,0 +1,23 @@
+.parent {
+    padding: 10px;
+    background-color: oldlace;
+    display: flex;
+    gap: 30px;
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    /* align-items: stretch; */
+    align-items: center;
+    height: 400px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.child {
+    border: 2px solid rgb(57, 57, 191);
+    background: rgb(178,228,229);
+    padding: 20px;
+    font-size: 28px;
+}
