@@ -1,0 +1,18 @@
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav li{
+    margin: 2px;
+    padding: 10px 20px;
+    background-color: rgb(63, 196, 196);
+    border-radius: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: blueviolet;
+    transition: 1s;
+}
