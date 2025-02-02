@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .girl{
+            border: 2px solid skyblue;
+            height:auto;
+            /* width: 500px; */
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .girl img{
+            width: 100%;
+            border-radius: 0px 0px 10px 10px;
+        }
+        @media screen and (max-width: 576px){
+            /* grid-template-columns: repeat(1, 1fr); */
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- .container>.girl*12>img[src="img/girl.jpg"]+h3{Girl - $}+p{follower: $00}+p>lorem30 -->
+    <div class="container">
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 1</h3>
+            <p>follower: 100+</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia non, perspiciatis odit quidem impedit voluptate tempora iure delectus, quo ullam, nihil mollitia. Saepe cumque harum itaque quis placeat distinctio porro.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 2</h3>
+            <p>follower: 200+</p>
+            <p>Voluptatibus recusandae, culpa consequatur voluptates necessitatibus voluptas facilis odio error sed nihil molestias quam! Tempora fugit doloremque deserunt, porro ratione velit unde, voluptatem illo rem, exercitationem nesciunt at eum sunt.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 3</h3>
+            <p>follower: 300+</p>
+            <p>Earum, blanditiis? Excepturi, eius. Distinctio iusto omnis fugit provident, non quos temporibus magni a tempora odit corrupti nam, voluptatibus quis esse, rerum adipisci dolorem obcaecati in. Repudiandae, nemo? Deleniti, quas?</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 4</h3>
+            <p>follower: 400+</p>
+            <p>Corrupti ex expedita nisi optio! Pariatur consectetur earum, ullam praesentium, eum dolor labore necessitatibus fuga ipsam nihil illum dolorem, animi unde cumque dicta recusandae laboriosam eveniet harum natus laborum sunt?</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 5</h3>
+            <p>follower: 500+</p>
+            <p>Pariatur quibusdam officiis quo animi, earum perspiciatis numquam quidem, magnam nam totam ex perferendis sit rem illum esse natus ipsa sed nihil saepe. Magni illo quam iusto nihil ex aliquam?</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 6</h3>
+            <p>follower: 600+</p>
+            <p>Tenetur possimus natus optio laudantium similique eligendi repudiandae dolorem eos dolorum voluptatum suscipit vero quo, illum, cupiditate libero sunt vel. Id rerum corrupti, totam iste aliquid fuga laboriosam ducimus explicabo!</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 7</h3>
+            <p>follower: 700+</p>
+            <p>Quaerat ipsa, suscipit molestias debitis earum sit nulla in neque blanditiis, totam eveniet ut dolore enim id! Mollitia, reiciendis odit? Distinctio dolorem iure, perferendis animi aspernatur suscipit autem alias dolore!</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 8</h3>
+            <p>follower: 800+</p>
+            <p>Ipsa, ducimus dicta. Quae inventore eos consequuntur quos esse. Eaque culpa alias eius molestias ea et asperiores repudiandae rerum, obcaecati consectetur velit quidem perferendis pariatur similique dicta voluptates sunt laudantium.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 9</h3>
+            <p>follower: 900+</p>
+            <p>Maxime debitis rerum similique odio repellendus minus beatae officia quasi totam. Neque vel repellat recusandae repellendus earum! Veniam non vitae odit officia ut! Deserunt blanditiis distinctio magni numquam dolores ipsa!</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 10</h3>
+            <p>follower: 1000+</p>
+            <p>Expedita, natus quos sapiente autem quibusdam error aliquid. Et neque reiciendis distinctio vel corporis commodi recusandae corrupti. Labore nemo magni, doloremque voluptas aliquid sequi voluptatibus. Magni ipsam fugit dolore pariatur?</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 11</h3>
+            <p>follower: 1100+</p>
+            <p>Nesciunt minima architecto sit hic natus consectetur eos provident. Inventore minus vero illum molestias architecto a maxime quas quia deserunt veniam nisi dolores impedit soluta veritatis, error harum eius quo.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 12</h3>
+            <p>follower: 1200+</p>
+            <p>Maiores nobis sint dolor eveniet molestias delectus facere expedita saepe fuga iusto consequuntur debitis veniam harum inventore sapiente, quaerat placeat impedit explicabo tenetur culpa! Quod at nobis exercitationem quo voluptatem?</p>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 1</h3>
+            height: $00
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa quos similique ducimus! Officiis sunt, in sit cumque a temporibus similique necessitatibus! Voluptate deserunt qui quas veritatis alias, ad adipisci.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 2</h3>
+            height: $00
+            <p>Tempora sapiente, neque, accusamus maiores officia incidunt minima dolorum eum similique autem, cupiditate quibusdam harum ducimus praesentium facere corrupti animi doloribus aperiam at culpa! Minima iusto corporis fugit eligendi molestias.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 3</h3>
+            height: $00
+            <p>Voluptate enim placeat nulla quae id consequatur. Odio molestias sit quae? Accusantium, amet, nulla quam enim quidem nihil velit, expedita tempore ut rerum cumque hic molestiae voluptatem illum repellendus placeat.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 4</h3>
+            height: $00
+            <p>Beatae corporis culpa ea accusamus asperiores hic sunt sint inventore consectetur natus, recusandae, velit officia ducimus voluptatem, laborum possimus corrupti doloribus rerum magni? Ut impedit voluptas eligendi nulla dolorem quia.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 5</h3>
+            height: $00
+            <p>Modi pariatur maxime magnam ad illum facilis rerum suscipit, deserunt natus fugit exercitationem saepe laboriosam aperiam eligendi cumque totam, voluptates aliquam cupiditate dolor, architecto culpa ipsa. Facere saepe ipsa quos.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 6</h3>
+            height: $00
+            <p>Quos suscipit quae quidem et accusamus adipisci ab culpa praesentium accusantium at nihil fuga voluptatum rem, enim beatae nisi ducimus cupiditate officia molestiae repudiandae sint dolorum! Saepe fugit est excepturi.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 7</h3>
+            height: $00
+            <p>Ad vitae tempore rem voluptate nam debitis inventore atque laudantium nisi sequi quos, ipsum temporibus dolor ratione! Explicabo magnam iusto, eos quidem fugiat, quasi, magni accusantium eligendi quod voluptatum nulla.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 8</h3>
+            height: $00
+            <p>Nam aut porro aliquid hic cupiditate, beatae dolores maxime dolorum qui consectetur ex debitis consequatur atque labore voluptates facere necessitatibus in libero maiores voluptas cumque. Eveniet nesciunt at deserunt! Quisquam.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 9</h3>
+            height: $00
+            <p>Nemo iste saepe deleniti obcaecati eaque recusandae nam quod sapiente, inventore voluptas consequuntur fugiat nihil corporis, illum architecto. Quo repellendus ipsa impedit quam quae eligendi rem hic quasi architecto molestiae?</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 10</h3>
+            height: $00
+            <p>Corporis iste, sint pariatur quod expedita aperiam hic recusandae adipisci impedit odio deleniti ratione maxime voluptatem blanditiis earum officiis possimus esse nostrum similique nihil fugiat nesciunt rem. Aliquid, nobis corporis.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 11</h3>
+            height: $00
+            <p>Illo molestias tempore quas cupiditate, repellat quis animi tenetur quos labore ipsum reprehenderit necessitatibus voluptate, ex dolorum? Recusandae doloremque facere consectetur nihil facilis animi, enim magni eligendi nam beatae officiis.</p>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl - 12</h3>
+            height: $00
+            <p>Nulla explicabo facilis assumenda sunt sed doloremque delectus provident porro, quidem distinctio accusamus fugit repellendus atque temporibus consectetur, laboriosam nemo praesentium architecto consequuntur ipsum recusandae numquam? Dolore praesentium quaerat omnis.</p>
+        </div>
+    </div> -->
+    
+</body>
+</html>
