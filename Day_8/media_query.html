@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .girl{
+            border: 2px solid skyblue;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .girl img{
+            width: 100%;
+        }
+        /* smaller device */
+        @media screen and (max-width: 576px){
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .girl{
+                background-color: aquamarine;
+            }
+        }
+        /* medium device */
+        @media screen and (min-width: 576px) and (max-width: 992px){
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- .container>.girl*12>img[src="img/girl.jpg"]+h3{Girl Name - $}+p{Follower: $k+}+p>lorem20^btn{Follow} -->
+    <div class="container">
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 1</h3>
+            <p>Follower: 1k+</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate est doloribus laborum, esse consequuntur consectetur laboriosam veniam maxime ipsum corporis?</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 2</h3>
+            <p>Follower: 2k+</p>
+            <p>Illum porro sint aspernatur, unde obcaecati sapiente itaque maxime ducimus, repellat ipsa vitae assumenda libero eaque consectetur! Ipsa, natus voluptate.</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 3</h3>
+            <p>Follower: 3k+</p>
+            <p>Tempora quos deleniti quia nemo inventore sunt dignissimos, fugiat tenetur dicta. Ratione quis sit deserunt. Exercitationem, neque. Quidem, ducimus minus?</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 4</h3>
+            <p>Follower: 4k+</p>
+            <p>Minima veniam enim consequatur laboriosam fugit cupiditate sequi deserunt sapiente aliquid, ipsa quos quas qui quod quasi repellat sunt consectetur?</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 5</h3>
+            <p>Follower: 5k+</p>
+            <p>Sequi, eaque ipsam minima architecto impedit, enim earum nobis ea deserunt velit similique, voluptate voluptatum accusamus illo fugiat a explicabo!</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 6</h3>
+            <p>Follower: 6k+</p>
+            <p>Dolor, atque repudiandae quibusdam laboriosam temporibus officia consequatur veniam corporis sapiente a maxime quo aliquam? Eos iure vel deserunt fugiat.</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 7</h3>
+            <p>Follower: 7k+</p>
+            <p>Dolorum reprehenderit neque soluta facere accusamus rerum molestias voluptate veniam atque similique, architecto adipisci dignissimos maxime quidem deleniti at commodi.</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 8</h3>
+            <p>Follower: 8k+</p>
+            <p>Asperiores cupiditate, quos tenetur, ullam unde modi, necessitatibus sunt odit ex hic repellat veniam facilis? Reiciendis eaque facere amet? Ex!</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 9</h3>
+            <p>Follower: 9k+</p>
+            <p>Delectus molestiae numquam quasi officiis cupiditate doloremque dolor minima iste adipisci error harum velit cumque minus, odio optio quidem saepe?</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 10</h3>
+            <p>Follower: 10k+</p>
+            <p>Minima explicabo fugiat alias ducimus possimus libero eos odit in hic molestias officia consequuntur, amet dolore perferendis aliquam optio quam!</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 11</h3>
+            <p>Follower: 11k+</p>
+            <p>Ut quo velit dolor ex nemo excepturi et ullam quam explicabo quae, in, at qui illum odio voluptates adipisci deserunt.</p>
+            <button>Follow</button>
+        </div>
+        <div class="girl">
+            <img src="img/girl.jpg" alt="">
+            <h3>Girl Name - 12</h3>
+            <p>Follower: 12k+</p>
+            <p>Fugiat non neque doloribus, sed omnis magnam fuga, blanditiis officiis quae recusandae reiciendis animi ea. Nam minima quo voluptate molestiae!</p>
+            <button>Follow</button>
+        </div>
+    </div>
+</body>
+</html>
